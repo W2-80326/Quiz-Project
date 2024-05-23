@@ -1,0 +1,52 @@
+CREATE TABLE login(
+login_id INT PRIMARY KEY AUTO_INCREMENT,
+firstName VARCHAR(20),
+lastName VARCHAR(20),
+email VARCHAR(20),
+password VARCHAR(30)
+);
+
+INSERT INTO login(firstName, lastName, email, password)
+VALUES('Akshat','Borana','akshat@mail.com','Akshat@101');
+
+CREATE TABLE qna(
+qna_id INT PRIMARY KEY AUTO_INCREMENT,
+ques VARCHAR(1024),
+option_1 VARCHAR(1024),
+option_2 VARCHAR(1024),
+option_3 VARCHAR(1024),
+option_4 VARCHAR(1024),
+option_5 VARCHAR(1024),
+answer VARCHAR(1024),
+imgName VARCHAR(512),
+subject VARCHAR(16)
+);
+
+INSERT INTO qna(ques,option_1,option_2,option_3,option_4,answer,subject)
+VALUES('Number of primitive data types in Java are ?','6','7','8','9','8','Java'),
+('What is the size of float and double in java ?','32 and 64','32 and 32','64 and 64','64 and 32','32 and 64','Java'),
+('Automatic type conversion is possible in which of the possible cases ?','Byte to int','Int to long','Long to int','Short to int','Int to long','Java'),
+('Select the valid statement.','char[] ch = new char(5)','char[] ch = new char[5]','char[] ch = new char()','char[] ch = new char[]','char[] ch = new char[5]','Java'),
+('When an array is passed to a method, what does the method receive ?','The reference of array','A copy of array','Length of array','Copy of first element','The reference of array','Java'),
+('Select the valid statement to declare and initialize an array.','int[] A = {}','int[] A = {1,2,3}','int[] A = (1,2,3)','int[][] A = {1,2,3}','int[] A = {1,2,3}','Java');
+
+
+
+
+INSERT INTO qna(ques,option_1,option_2,option_3,option_4,answer,imgName,subject)
+VALUES('Find the output of the following code.','Compile error','Throws exception','I','24 I','24 I','img1','Java'),
+('Find the output of the following program.','50','10','Compile error','Exception','Compile error','img2','Java'),
+('Find the output of the following program.','-127','127','129','2','-127','img3','Java'),
+('Find the output of the following program.','120 200 016','120 200 14','120 200 16','None','120 200 14','img4','Java');
+
+
+
+
+
+
+
+
+
+
+
+
