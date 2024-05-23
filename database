@@ -40,6 +40,25 @@ VALUES('Find the output of the following code.','Compile error','Throws exceptio
 ('Find the output of the following program.','120 200 016','120 200 14','120 200 16','None','120 200 14','img4','Java');
 
 
+INSERT INTO qna(ques,option_1,option_2,option_3,option_4,answer,imgName,subject)
+VALUES('Find the value of A[1] after execution of the following program.','0','1','2','3','1','img5','Java'),
+('Identify the correct restriction on static methods.','I and II','II and III','Only III','I, II and III','I, II and III','img6','Java'),
+('Identify what can directly access and change the value of the variable res.','Any class','Only solution class','Any class that extends solution','None','Only solution class','img7','Java'),
+('Identify the output of the following program.','abc','bc','bcd','cd','bc','img8','Java');
+
+
+
+
+INSERT INTO qna(ques,option_1,option_2,option_3,option_4,answer,subject)
+VALUES('Arrays in java are-','Object references','Objects','Primitive data type','None','Objects','Java'),
+('When is the object created with new keyword ?','At run time','At compile time','Depends on the code','None','At run time','Java'),
+('Identify the corrected definition of a package.','A package is a collection of editing tools','A package is a collection of classes','A package is a collection of classes and interfaces','A package is a collection of interfaces','A package is a collection of classes and interfaces','Java'),
+('Identify the keyword among the following that makes a variable belong to a class,rather than being defined for each instance of the class.','final','static','volatile','abstract','static','Java'),
+('In which of the following is toString() method defined?','java.lang.Object','java.lang.String','java.lang.util','None','java.lang.Object','Java'),
+('compareTo() returns','True','False','An int value','None','An int value','Java');
+
+
+
 
 
 
